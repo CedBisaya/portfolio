@@ -56,85 +56,6 @@
 
   <div class="space-y-32">
     
-    <!-- invta -->
-    <article class="group reveal-frame">
-      <div class="opacity-0 translate-y-[18px] transition-all duration-700 motion-reduce:transition-none group-[.in-view]:opacity-100 group-[.in-view]:translate-y-0">
-        
-        <!-- Large Image Area -->
-        <div class="grid grid-cols-1 sm:grid-cols-[1fr_120px] gap-4 mb-8 sm:h-[400px]">
-        
-        <!-- Main Display -->
-        <div class="w-full aspect-video sm:aspect-auto h-full bg-neutral-100 dark:bg-neutral-900 border border-neutral-200 dark:border-neutral-800 overflow-hidden">
-            <img id="invta" src="../src/invta/Invta.jpg" class="w-full h-full object-contain transition-opacity duration-300" alt="Main Project View"/>
-        </div>
-
-        <!-- Thumbnails -->
-        <div class="flex sm:flex-col gap-4 overflow-x-auto sm:overflow-y-auto h-full pb-2 sm:pb-0 pr-1 [&::-webkit-scrollbar]:hidden [-ms-overflow-style:none] [scrollbar-width:none]">
-
-            <button onclick="document.getElementById('invta').src='../src/invta/Invta.jpg'" class="shrink-0 w-24 sm:w-full aspect-video border border-neutral-200 dark:border-neutral-800 hover:opacity-70 transition-opacity focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-neutral-900 dark:focus-visible:outline-neutral-100 overflow-hidden">
-            <img src="../src/invta/Invta.jpg" class="w-full h-full object-contain" alt="Thumbnail 1"/>
-            </button>
-
-            <button onclick="document.getElementById('invta').src='../src/invta/m1.png'" class="shrink-0 w-24 sm:w-full aspect-video border border-neutral-200 dark:border-neutral-800 hover:opacity-70 transition-opacity focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-neutral-900 dark:focus-visible:outline-neutral-100 overflow-hidden">
-            <img src="../src/invta/m1.png" class="w-full h-full object-contain" alt="Thumbnail 2"/>
-            </button>
-
-            <button onclick="document.getElementById('invta').src='../src/invta/m2.png'" class="shrink-0 w-24 sm:w-full aspect-video border border-neutral-200 dark:border-neutral-800 hover:opacity-70 transition-opacity focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-neutral-900 dark:focus-visible:outline-neutral-100 overflow-hidden">
-            <img src="../src/invta/m2.png" class="w-full h-full object-contain" alt="Thumbnail 3"/>
-            </button>
-
-            <button onclick="document.getElementById('invta').src='../src/invta/m3.png'" class="shrink-0 w-24 sm:w-full aspect-video border border-neutral-200 dark:border-neutral-800 hover:opacity-70 transition-opacity focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-neutral-900 dark:focus-visible:outline-neutral-100 overflow-hidden">
-            <img src="../src/invta/m3.png" class="w-full h-full object-contain" alt="Thumbnail 3"/>
-            </button>
-
-            <button onclick="document.getElementById('invta').src='../src/invta/m4.png'" class="shrink-0 w-24 sm:w-full aspect-video border border-neutral-200 dark:border-neutral-800 hover:opacity-70 transition-opacity focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-neutral-900 dark:focus-visible:outline-neutral-100 overflow-hidden">
-            <img src="../src/invta/m4.png" class="w-full h-full object-contain" alt="Thumbnail 3"/>
-            </button>
-
-            <button onclick="document.getElementById('invta').src='../src/invta/w1.png'" class="shrink-0 w-24 sm:w-full aspect-video border border-neutral-200 dark:border-neutral-800 hover:opacity-70 transition-opacity focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-neutral-900 dark:focus-visible:outline-neutral-100 overflow-hidden">
-            <img src="../src/invta/w1.png" class="w-full h-full object-contain" alt="Thumbnail 3"/>
-            </button>
-
-            <button onclick="document.getElementById('invta').src='../src/invta/w2.png'" class="shrink-0 w-24 sm:w-full aspect-video border border-neutral-200 dark:border-neutral-800 hover:opacity-70 transition-opacity focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-neutral-900 dark:focus-visible:outline-neutral-100 overflow-hidden">
-            <img src="../src/invta/w2.png" class="w-full h-full object-contain" alt="Thumbnail 3"/>
-            </button>
-
-            <button onclick="document.getElementById('invta').src='../src/invta/w3.png'" class="shrink-0 w-24 sm:w-full aspect-video border border-neutral-200 dark:border-neutral-800 hover:opacity-70 transition-opacity focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-neutral-900 dark:focus-visible:outline-neutral-100 overflow-hidden">
-            <img src="../src/invta/w3.png" class="w-full h-full object-contain" alt="Thumbnail 3"/>
-            </button>
-            
-            <button onclick="document.getElementById('invta').src='../src/invta/w4.png'" class="shrink-0 w-24 sm:w-full aspect-video border border-neutral-200 dark:border-neutral-800 hover:opacity-70 transition-opacity focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-neutral-900 dark:focus-visible:outline-neutral-100 overflow-hidden">
-            <img src="../src/invta/w4.png" class="w-full h-full object-contain" alt="Thumbnail 3"/>
-            </button>
-
-        </div>
-        </div>
-
-        <div class="grid md:grid-cols-[1fr_250px] gap-10 items-start">
-          <div>
-            <h2 class="font-display font-semibold text-3xl mb-4">inVta — Event Management System</h2>
-            <div class="space-y-4 text-neutral-600 dark:text-neutral-400 leading-relaxed">
-              <p>Developed to handle comprehensive event management and tracking. The system architecture required complex parent-child database relationships to manage sub-events under main conference umbrellas.</p>
-              <p>Key features include dynamic QR code generation for rapid attendee check-ins, real-time attendance dashboards, and a gamification layer designed to increase user engagement during multi-day events.</p>
-            </div>
-            <a href="#" class="inline-block mt-8 font-mono text-xs uppercase border-b border-neutral-900 dark:border-neutral-100 pb-1 hover:opacity-70 transition-opacity focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-neutral-900 dark:focus-visible:outline-neutral-100 rounded-sm">GitHub Repository &rarr;</a>
-          </div>
-
-          <div class="border-l border-neutral-200 dark:border-neutral-800 pl-6 space-y-6">
-            <div>
-              <p class="font-mono text-[11px] text-neutral-400 dark:text-neutral-600 uppercase mb-2">Role</p>
-              <p class="text-sm">Full-Stack Developer</p>
-            </div>
-            <div>
-              <p class="font-mono text-[11px] text-neutral-400 dark:text-neutral-600 uppercase mb-2">Stack</p>
-              <p class="text-sm">Laravel, Livewire, Tailwind CSS, Alpine.js, MySQL</p>
-            </div>
-          </div>
-        </div>
-
-      </div>
-    </article>
-
     <!-- Swisa-agap -->
     <article class="group reveal-frame">
       <div class="opacity-0 translate-y-[18px] transition-all duration-700 motion-reduce:transition-none group-[.in-view]:opacity-100 group-[.in-view]:translate-y-0">
@@ -209,20 +130,105 @@
           <div>
             <h2 class="font-display font-semibold text-3xl mb-4">SWISA-AGAP</h2>
             <div class="space-y-4 text-neutral-600 dark:text-neutral-400 leading-relaxed">
-              <p>A comprehensive grant management application designed to bridge the gap between administrators on the web and field personnel on mobile devices.</p>
-              <p>Built a secure API with Laravel to serve data directly to the Flutter application, ensuring real-time synchronization of grant statuses, user roles, and data collection from remote areas.</p>
+              <p class="font-mono text-xs text-neutral-400 dark:text-neutral-600">A Centralized Digital Platform for Managing Agricultural Grants and Equipment Acquisition in Sorsogon</p>
+              <p>Streamlined the agricultural grant and equipment acquisition process for the Swisa Federation through a custom-built management system tailored for the farmers of Castilla, Sorsogon.</p>
             </div>
-            <a href="#" class="inline-block mt-8 font-mono text-xs uppercase border-b border-neutral-900 dark:border-neutral-100 pb-1 hover:opacity-70 transition-opacity focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-neutral-900 dark:focus-visible:outline-neutral-100 rounded-sm">GitHub Repository &rarr;</a>
           </div>
 
           <div class="border-l border-neutral-200 dark:border-neutral-800 pl-6 space-y-6">
             <div>
+              <p class="font-mono text-[11px] text-neutral-400 dark:text-neutral-600 uppercase mb-2">Project</p>
+              <p class="text-sm">Capstone Project</p>
+            </div>
+            <div>
               <p class="font-mono text-[11px] text-neutral-400 dark:text-neutral-600 uppercase mb-2">Role</p>
-              <p class="text-sm">Full Stack Developer</p>
+              <p class="text-sm">Full-Stack Developer</p>
             </div>
             <div>
               <p class="font-mono text-[11px] text-neutral-400 dark:text-neutral-600 uppercase mb-2">Stack</p>
               <p class="text-sm">Laravel, TailwindCSS, Alpine.js, Flutter, REST APIs, MySQL</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </article>
+
+    <!-- invta -->
+    <article class="group reveal-frame">
+      <div class="opacity-0 translate-y-[18px] transition-all duration-700 motion-reduce:transition-none group-[.in-view]:opacity-100 group-[.in-view]:translate-y-0">
+        
+        <!-- Large Image Area -->
+        <div class="grid grid-cols-1 sm:grid-cols-[1fr_120px] gap-4 mb-8 sm:h-[400px]">
+        
+        <!-- Main Display -->
+        <div class="w-full aspect-video sm:aspect-auto h-full bg-neutral-100 dark:bg-neutral-900 border border-neutral-200 dark:border-neutral-800 overflow-hidden">
+            <img id="invta" src="../src/invta/Invta.jpg" class="w-full h-full object-contain transition-opacity duration-300" alt="Main Project View"/>
+        </div>
+
+        <!-- Thumbnails -->
+        <div class="flex sm:flex-col gap-4 overflow-x-auto sm:overflow-y-auto h-full pb-2 sm:pb-0 pr-1 [&::-webkit-scrollbar]:hidden [-ms-overflow-style:none] [scrollbar-width:none]">
+
+            <button onclick="document.getElementById('invta').src='../src/invta/Invta.jpg'" class="shrink-0 w-24 sm:w-full aspect-video border border-neutral-200 dark:border-neutral-800 hover:opacity-70 transition-opacity focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-neutral-900 dark:focus-visible:outline-neutral-100 overflow-hidden">
+            <img src="../src/invta/Invta.jpg" class="w-full h-full object-contain" alt="Thumbnail 1"/>
+            </button>
+
+            <button onclick="document.getElementById('invta').src='../src/invta/m1.png'" class="shrink-0 w-24 sm:w-full aspect-video border border-neutral-200 dark:border-neutral-800 hover:opacity-70 transition-opacity focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-neutral-900 dark:focus-visible:outline-neutral-100 overflow-hidden">
+            <img src="../src/invta/m1.png" class="w-full h-full object-contain" alt="Thumbnail 2"/>
+            </button>
+
+            <button onclick="document.getElementById('invta').src='../src/invta/m2.png'" class="shrink-0 w-24 sm:w-full aspect-video border border-neutral-200 dark:border-neutral-800 hover:opacity-70 transition-opacity focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-neutral-900 dark:focus-visible:outline-neutral-100 overflow-hidden">
+            <img src="../src/invta/m2.png" class="w-full h-full object-contain" alt="Thumbnail 3"/>
+            </button>
+
+            <button onclick="document.getElementById('invta').src='../src/invta/m3.png'" class="shrink-0 w-24 sm:w-full aspect-video border border-neutral-200 dark:border-neutral-800 hover:opacity-70 transition-opacity focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-neutral-900 dark:focus-visible:outline-neutral-100 overflow-hidden">
+            <img src="../src/invta/m3.png" class="w-full h-full object-contain" alt="Thumbnail 3"/>
+            </button>
+
+            <button onclick="document.getElementById('invta').src='../src/invta/m4.png'" class="shrink-0 w-24 sm:w-full aspect-video border border-neutral-200 dark:border-neutral-800 hover:opacity-70 transition-opacity focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-neutral-900 dark:focus-visible:outline-neutral-100 overflow-hidden">
+            <img src="../src/invta/m4.png" class="w-full h-full object-contain" alt="Thumbnail 3"/>
+            </button>
+
+            <button onclick="document.getElementById('invta').src='../src/invta/w1.png'" class="shrink-0 w-24 sm:w-full aspect-video border border-neutral-200 dark:border-neutral-800 hover:opacity-70 transition-opacity focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-neutral-900 dark:focus-visible:outline-neutral-100 overflow-hidden">
+            <img src="../src/invta/w1.png" class="w-full h-full object-contain" alt="Thumbnail 3"/>
+            </button>
+
+            <button onclick="document.getElementById('invta').src='../src/invta/w2.png'" class="shrink-0 w-24 sm:w-full aspect-video border border-neutral-200 dark:border-neutral-800 hover:opacity-70 transition-opacity focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-neutral-900 dark:focus-visible:outline-neutral-100 overflow-hidden">
+            <img src="../src/invta/w2.png" class="w-full h-full object-contain" alt="Thumbnail 3"/>
+            </button>
+
+            <button onclick="document.getElementById('invta').src='../src/invta/w3.png'" class="shrink-0 w-24 sm:w-full aspect-video border border-neutral-200 dark:border-neutral-800 hover:opacity-70 transition-opacity focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-neutral-900 dark:focus-visible:outline-neutral-100 overflow-hidden">
+            <img src="../src/invta/w3.png" class="w-full h-full object-contain" alt="Thumbnail 3"/>
+            </button>
+            
+            <button onclick="document.getElementById('invta').src='../src/invta/w4.png'" class="shrink-0 w-24 sm:w-full aspect-video border border-neutral-200 dark:border-neutral-800 hover:opacity-70 transition-opacity focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-neutral-900 dark:focus-visible:outline-neutral-100 overflow-hidden">
+            <img src="../src/invta/w4.png" class="w-full h-full object-contain" alt="Thumbnail 3"/>
+            </button>
+
+        </div>
+        </div>
+
+        <div class="grid md:grid-cols-[1fr_250px] gap-10 items-start">
+          <div>
+            <h2 class="font-display font-semibold text-3xl mb-4">inVta</h2>
+            <div class="space-y-4 text-neutral-600 dark:text-neutral-400 leading-relaxed">
+              <p class="font-mono text-xs text-neutral-400 dark:text-neutral-600">A Digital Platform for Managing Events and Attendance for DOST-V Events</p>
+              <p>An Internship project that aimed to streamline event management and attendance tracking for DOST-V events.</p>
+            </div>
+          </div>
+
+          <div class="border-l border-neutral-200 dark:border-neutral-800 pl-6 space-y-6">
+            <div>
+              <p class="font-mono text-[11px] text-neutral-400 dark:text-neutral-600 uppercase mb-2">Project</p>
+              <p class="text-sm">Internship Proejct</p>
+            </div>
+            <div>
+              <p class="font-mono text-[11px] text-neutral-400 dark:text-neutral-600 uppercase mb-2">Role</p>
+              <p class="text-sm">Full-Stack Developer</p>
+            </div>
+            <div>
+              <p class="font-mono text-[11px] text-neutral-400 dark:text-neutral-600 uppercase mb-2">Stack</p>
+              <p class="text-sm">Laravel, Livewire, Tailwind CSS, Alpine.js, Flutter, REST APIs, MySQL</p>
             </div>
           </div>
         </div>
@@ -268,13 +274,16 @@
           <div>
             <h2 class="font-display font-semibold text-3xl mb-4">ARTieh</h2>
             <div class="space-y-4 text-neutral-600 dark:text-neutral-400 leading-relaxed">
-              <p>Promoting Albay's Artistry through an Empowering Online Platform </p>
-              <p>...</p>
+              <p class="font-mono text-xs text-neutral-400 dark:text-neutral-600">Promoting Albay's Artistry through an Empowering Online Platform</p>
+              <p>ARTieh is a specialized e-commerce platform that connects Albay’s local artists with a wider audience of collectors and art enthusiasts through a seamless digital marketplace</p>
             </div>
-            <a href="#" class="inline-block mt-8 font-mono text-xs uppercase border-b border-neutral-900 dark:border-neutral-100 pb-1 hover:opacity-70 transition-opacity focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-neutral-900 dark:focus-visible:outline-neutral-100 rounded-sm">GitHub Repository &rarr;</a>
           </div>
 
           <div class="border-l border-neutral-200 dark:border-neutral-800 pl-6 space-y-6">
+            <div>
+              <p class="font-mono text-[11px] text-neutral-400 dark:text-neutral-600 uppercase mb-2">Project</p>
+              <p class="text-sm">Academic Project</p>
+            </div>
             <div>
               <p class="font-mono text-[11px] text-neutral-400 dark:text-neutral-600 uppercase mb-2">Role</p>
               <p class="text-sm">Backend Developer</p>
